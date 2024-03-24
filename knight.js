@@ -41,10 +41,6 @@ function inRange([x, y]) {
 	return (x >= 0 && x < BOARD_SIZE[0] && y >= 0 && y < BOARD_SIZE[1]);
 }
 
-// function hash(position) {
-// 	return position.toString();
-// }
-
 function getAdjacent([x, y]) {
 	const adj =  STEPS.map(([rx, ry]) => ([x + rx, y + ry]))
 	return adj.filter(inRange);
@@ -62,7 +58,6 @@ function getPath(end, visited) {
 }
 
 /**
- * 
  * @param {[number, number]} start The knight's starting [x, y] position
  * @param {[number, number]} end The target [x, y] position for the knight
  * @returns {Array<[number,number]>} The shortest path from start to end

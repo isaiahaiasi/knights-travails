@@ -4,7 +4,7 @@
 
 ## The Problem
 
-Given a [Knight](https://en.wikipedia.org/wiki/Knight_(chess)) on a chessboard, find the shortest path it can take between two points.
+Given a [Knight](https://en.wikipedia.org/wiki/Knight_(chess)) on a chess board, find the shortest path it can take between two points.
 
 ## Solution
 
